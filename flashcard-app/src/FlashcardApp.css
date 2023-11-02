@@ -1,0 +1,128 @@
+      body {
+          font-family: Arial, sans-serif;
+          background-color:black;
+          text-align: center;
+      }
+
+      .flashcard-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 300px;
+          background-color: black;
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+          border-radius: 5px;
+          margin: 20px;
+      }
+
+      .flashcard {
+          width: 300px;
+          height: 200px;
+          padding: 20px;
+          text-align: center;
+          background-color: #fff;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: transform 0.2s ease-in-out;
+      }
+
+      .flashcard:hover {
+          transform: scale(1.05);
+      }
+
+      #flashcard-text {
+          font-size: 24px;
+      }
+
+      .button-container {
+          margin-top: 20px;
+      }
+.table-of-contents.open {
+    left: 0;
+}
+      .button {
+          padding: 10px 20px;
+          margin: 8px;
+          background-color: #007bff;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+      }
+
+      #searchButton {
+          padding: 10px 20px;
+          background-color: #007bff;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+      }
+
+      h1 {
+          color: #333;
+      }
+
+      .search {
+          padding: 5px;
+          margin: 10px;
+      }
+
+      #result {
+          margin-top: 20px;
+          font-weight: bold;
+      }
+
+      .burger {
+          position: fixed;
+          top: 23px;
+          left: 33px;
+          cursor: pointer;
+      }
+
+      .burger-line {
+          width: 25px;
+          height: 2.5px;
+          background-color: white;
+          margin: 5px 0;
+      }
+
+      .table-of-contents {
+          position: fixed;
+          top: 0;
+          left: -300px;
+          width: 300px;
+          height: 100%;
+          background-color: #fff;
+          transition: left 0.3s;
+          overflow-y: auto;
+      }
+
+      table {
+          width: 100%;
+          border-collapse: collapse;
+      }
+
+      th,
+      td {
+          border: 1px solid #ccc;
+          padding: 10px;
+          text-align: left;
+      }
+
+      th {
+          background-color: #007bff;
+          color: #fff;
+      }
+
+      .close-button {
+        color: white;
+          position: fixed;
+          top: 10px;
+          padding: 2px;
+          left: 304px;
+          
+          font-size: 24px;
+          cursor: pointer;
+      }
